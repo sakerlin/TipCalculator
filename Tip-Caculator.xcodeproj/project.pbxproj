@@ -14,6 +14,8 @@
 		29B31F721B2600AC000B9BED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B31F711B2600AC000B9BED /* Images.xcassets */; };
 		29B31F751B2600AC000B9BED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29B31F731B2600AC000B9BED /* LaunchScreen.xib */; };
 		29B31F811B2600AC000B9BED /* Tip_CaculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B31F801B2600AC000B9BED /* Tip_CaculatorTests.m */; };
+		29B31F8C1B26015D000B9BED /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B31F8B1B26015D000B9BED /* TipViewController.m */; };
+		29B31F8F1B2609FE000B9BED /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B31F8E1B2609FE000B9BED /* SetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		29B31F7A1B2600AC000B9BED /* Tip-CaculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip-CaculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B31F7F1B2600AC000B9BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29B31F801B2600AC000B9BED /* Tip_CaculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tip_CaculatorTests.m; sourceTree = "<group>"; };
+		29B31F8A1B26015D000B9BED /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		29B31F8B1B26015D000B9BED /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		29B31F8D1B2609FE000B9BED /* SetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		29B31F8E1B2609FE000B9BED /* SetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				29B31F6B1B2600AC000B9BED /* ViewController.h */,
 				29B31F6C1B2600AC000B9BED /* ViewController.m */,
 				29B31F6E1B2600AC000B9BED /* Main.storyboard */,
+				29B31F8D1B2609FE000B9BED /* SetViewController.h */,
+				29B31F8E1B2609FE000B9BED /* SetViewController.m */,
+				29B31F8A1B26015D000B9BED /* TipViewController.h */,
+				29B31F8B1B26015D000B9BED /* TipViewController.m */,
 				29B31F711B2600AC000B9BED /* Images.xcassets */,
 				29B31F731B2600AC000B9BED /* LaunchScreen.xib */,
 				29B31F641B2600AB000B9BED /* Supporting Files */,
@@ -221,6 +231,8 @@
 			files = (
 				29B31F6D1B2600AC000B9BED /* ViewController.m in Sources */,
 				29B31F6A1B2600AC000B9BED /* AppDelegate.m in Sources */,
+				29B31F8C1B26015D000B9BED /* TipViewController.m in Sources */,
+				29B31F8F1B2609FE000B9BED /* SetViewController.m in Sources */,
 				29B31F671B2600AB000B9BED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
